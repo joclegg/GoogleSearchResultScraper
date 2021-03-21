@@ -19,8 +19,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore /GoogleSearchResultScraperApi
+      run: dotnet restore GoogleSearchResultScraperApi
     - name: Build
-      run: dotnet build /GoogleSearchResultScraperApi --no-restore
+      run: dotnet build GoogleSearchResultScraperApi --no-restore
     - name: Test
-      run: dotnet test /GoogleSearchResultScraperApi --no-build --verbosity normal
+      run: dotnet test GoogleSearchResultScraperApi --no-build --verbosity normal
