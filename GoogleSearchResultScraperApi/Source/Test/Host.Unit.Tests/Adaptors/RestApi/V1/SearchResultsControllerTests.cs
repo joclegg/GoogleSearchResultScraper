@@ -55,7 +55,7 @@ namespace GoogleSearchResultScraperApi.Host.Unit.Tests.Adaptors.RestApi.V1
 
             // Assert    
             var objectResult = response as OkObjectResult;
-            var actual = objectResult.Value;
+            var actual = objectResult?.Value;
             actual.ShouldBe(expected);
         }
 
