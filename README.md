@@ -1,4 +1,4 @@
-GoogleSearchResultScraper
+# GoogleSearchResultScraper
 
 This scraper consists of two services a .Net Core Web Api and a React App
 
