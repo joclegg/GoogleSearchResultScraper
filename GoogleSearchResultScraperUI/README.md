@@ -79,22 +79,6 @@ Prettier's code guidelines.
    4. Check `On code reformat` and `On save` checkboxes
 5. Click `OK` button. You might need to restart IDE again
 
-## Unit tests
-
-There are few commands to run unit tests:
-
-- `yarn unit-test:watch` runs all unit tests and watches for file changes
-- `yarn unit-test:coverage` runs all unit tests and generates test coverage report (report can be opened in browser from
-  `coverage/lcov-report/index.html` file)
-
-## End-to-end tests
-
-There are few ways to run end-to-end tests:
-
-- `yarn e2e-test` runs app in development mode and opens Cypress Test Runner with feature-rich and convenient UI in
-  browser where you can select which tests to run
-- `yarn e2e-test:ci` runs app in production mode and then runs all e2e tests in command line
-
 ## Folder structure
 
 - `public` - Static files (e.g. html files, images, fonts, etc.)
@@ -119,5 +103,3 @@ There are few ways to run end-to-end tests:
 - **Webpack** - static module bundler, bundles source code into single file (https://webpack.js.org/)
 - **ESLint** - static code analyser, finds problems in JavaScript/TypeScript code (https://eslint.org/)
 - **Prettier** - code formatter, automatically formats code according to their own code guidelines (https://prettier.io/)
-- **Jest** - unit testing library, used as a test runner here (https://jestjs.io/)
-- **React Testing Library** - unit testing library, used as an assertion library for React applications (https://testing-library.com/)
